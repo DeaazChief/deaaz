@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deaaz</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&family=Press+Start+2P&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: #0A252A;
+            color: white;
+            font-family: 'Roboto', sans-serif;
+            font-weight: bold;
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        
+        h1 {
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+            font-size: 40px;
+        }
+
+        .loader {
+            border: 16px solid #f3f3f3;
+            border-top: 16px solid #3498db;
+            border-radius: 50%;
+            width: 120px;
+            height: 120px;
+            animation: spin 2s linear infinite;
+            margin-top: 20px;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .subtext {
+            font-family: 'Press Start 2P', cursive;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+            margin-top: 20px;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <h1>The site is under development. By Deaaz</h1>
+    <div class="loader"></div>
+    <div class="subtext">Please check back soon for updates!</div>
+</body>
+</html>
